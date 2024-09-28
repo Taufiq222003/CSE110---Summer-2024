@@ -1,3 +1,4 @@
+// ARRATS (TASK-09)
 public class task11 {
     public static void main(String [] args){
         char[] studentGrades = new char[]{'A', 'A', 'A', 'B', 'C', 'U', 'Z'};
