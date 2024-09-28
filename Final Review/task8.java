@@ -1,3 +1,4 @@
+// Strings + Methods (TASK-04)
 public class task8{
     public static void main(String [] args){
         boolean check = isHappyNumber(88);
