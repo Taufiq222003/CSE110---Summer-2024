@@ -1,3 +1,4 @@
+// STRING + ARRAY (TASK-03)
 public class task7 {
     public static void main(String [] args){
         String [] email_list =  {"abc@gmail.com", "!@cv.bd",  "123cse@bracu.ac.bd"};
