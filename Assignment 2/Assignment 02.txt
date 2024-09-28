@@ -1,0 +1,307 @@
+//task 1
+a) hungry - correct
+b) 2AB - incorrect(cannot start with a number)	
+c) 312.2 - incorrect(cannot start with a number) 	
+d) MOBILE - correct	 
+e) “Ans” -incorrect(cannot start with "")	
+f) $30 - correct
+g) Yes/No - correct
+h) student-id - incorrect(no use of camel case or snake case e.g. student_id, studentId   
+i) A+3 - incorrect
+j) ‘X’- incorrect(cannot start with '')
+k) return - incorrect(java default keyword)
+
+
+//task 2
+public class task2{
+  public static void main(String [] args){
+    //task 2.1
+    int variable_1 = 10;
+
+    System.out.println("The integer is : " + variable_1);
+    //task 2.2
+    int variable_2 = 5;
+
+    int sum = variable_1 + variable_2;
+   
+    System.out.println("The sum is : " + sum);
+    //task 2.3
+    int mul = variable_1 * variable_2;
+
+    int div = variable_1 / variable_2;
+   
+    System.out.println("The product is : " + mul);
+
+    System.out.println("The division is: " + div);
+    
+    //task 2.4
+    double doub_1 = 10.2d;
+   
+    System.out.println("The integer is : " + doub_1);
+
+    double doub_2 = 5.2d;
+
+    double sum1 = doub_1 + doub_2;
+
+    System.out.println("The sum is : " + sum1);
+
+    double mul1 = doub_1 * doub_2;
+
+    double div1 = doub_1 / doub_2;
+   
+    System.out.println("The product is : " + mul1);
+
+    System.out.println("The division is: " + div1);
+
+    //task 2.5
+    double num_1 = 10.2d;
+
+    int num_2 = 5;
+
+    System.out.println("The double value is " + num_1);
+
+    System.out.println("The integer value is " + num_2);
+
+    double sum2 = num_1 + num_2;
+   
+    System.out.println("The sum is : " + sum2);
+
+    double mul2 = num_1 * num_2;
+
+    double div2 = num_1 / num_2;
+   
+    System.out.println("The product is : " + mul2);
+
+    System.out.println("The division is: " + div2);
+
+    //task 2.6
+    String str_1 = "Hello";
+
+    System.out.println(str_1);
+
+    String str_2 = " World";
+
+    System.out.println(str_1 + str_2);
+
+    int integer_1 = 5;
+
+    String str_3 = " World";
+
+    System.out.println(integer_1 + str_3);
+
+    String str_4 = "Hello ";
+
+    int integer_2 = 5;
+
+    System.out.println(str_4 + integer_2);
+
+  }
+}
+
+
+//task 3
+public class task3{
+  public static void main(String [] args){
+    
+    int radius = 4;
+    double circum = 2 * 3.14 * radius;
+    double area = 3.14 * radius * radius;
+   
+    System.out.println("The circumference is : " + circum);
+    System.out.println("The area is : " + area);
+  }
+}
+
+//task 4
+public class task4{
+  public static void main(String [] args){
+    
+    int num_1 = 4056;
+    int last_2 = 4056 % 100;
+   
+    System.out.println("The last two digits are : " + last_2);
+  
+  }
+}
+
+//task 5
+public class task5{
+  public static void main(String [] args){
+    
+    int num1 = 1000;
+    double meter = num1 * 0.0254;
+   
+    System.out.println("The number in meter is : " + meter + " meters");
+  
+  }
+}
+
+//task 6
+public class task9{
+    public static void main(String [] args){
+        //task 6a
+        int num1 = 5;
+        int num2 = 10;
+
+        int temp = num1;
+
+        num1 = num2;
+
+        num2 = temp;
+
+        System.out.println("The swapped value of num1 is: " + num1);
+        System.out.println("The swapped value of num2 is: " + num2);
+
+        //task 6b
+        int num3 = 5;
+        int num4 = 10;
+
+        num3 = num3 + num4;
+
+        num4 = num3 - num4;
+
+        num3 = num3 - num4;
+
+        System.out.println("The swapped value of num3 is: " + num3);
+        System.out.println("The swapped value of num4 is: " + num4);
+    
+        
+    }
+}
+
+
+
+//task 7
+public class task7{
+  public static void main(String [] args){
+    
+    int min = 3456789;
+    int year = min / 365 * 24 * 60;
+    int days = min % 365 * 24 * 60  / 24 * 60 ;
+   
+      System.out.println(min + " is approximately " + year + " years and " + days + " days");
+  
+  }
+}
+
+//task 8
+public class task8{
+  public static void main(String [] args){
+    
+    int num1 = 2;
+    int num2= 5;
+    int num3 = 8 ;
+    int num4 = (2 * num2 * ( num3 - num1 ) / 3) + 7;
+   
+      System.out.println(num4);
+  
+  }
+}
+
+//task 9
+public class task9{
+    public static void main(String [] args){
+        int value = 5;
+        System.out.println(value + " x 1 = " + value*1);
+        System.out.println(value + " x 2 = " + value*2);
+        System.out.println(value + " x 3 = " + value*3);
+        System.out.println(value + " x 4 = " + value*4);
+        System.out.println(value + " x 5 = " + value*5);
+        System.out.println(value + " x 6 = " + value*6);
+        System.out.println(value + " x 7 = " + value*7);
+        System.out.println(value + " x 8 = " + value*8);
+        System.out.println(value + " x 9 = " + value*9);
+        System.out.println(value + " x 10 = " + value*10);
+        
+    }
+}
+
+
+//task 10
+
+public class task10{
+  public static void main(String [] args){
+    
+    int num_terms = 100;
+    int first_num = 1;
+    int last_num = 100 ;
+    int sum = num_terms / 2 * (first_num + last_num);  
+   
+      System.out.println("The sum of first 100 positive integers is "+ sum);
+  
+  }
+}
+
+//task 11
+public class number_11{
+  public static void main(String [] args){
+    
+    int opposite = 3;
+    int adjacent = 4;
+    double hypotenuse = Math.sqrt(opposite * opposite + adjacent * adjacent) ;
+    double sin1 = opposite / hypotenuse;
+    double cos1 = adjacent / hypotenuse;
+    double sin2 = adjacent / hypotenuse;
+    double cos2 = opposite / hypotenuse;
+    
+    System.out.println( "The sin and cos values of angle A and angle B are :" + " sin(A) = "+ sin1 + ", cos(A) = " + cos1 + ", sin(B) = " + sin2 + ", cos(B) = " + cos2 );
+    
+   
+  }
+}
+
+//task 12
+public class task12{
+  public static void main(String [] args){
+    
+    int student_id = 24301485;
+    int last1 = student_id % 10;
+    int last2 = student_id % 100 / 10;
+    
+    System.out.println(last1);
+    System.out.println(last2);
+    
+   
+  }
+}
+
+//task 13
+public class task13{
+    public static void main(String[] args) {
+        int hours = 5;
+        int minutes = 56;
+        int seconds = 23;
+
+        int distance= 1485; 
+
+        double totalHours = hours + (minutes / 60.0) + (seconds / 3600.0);
+
+        double velocity1 = (distance / 1000.0) / totalHours;
+
+        double velocity2 = (distance / 1609.0) / totalHours;
+
+        System.out.println("Your velocity in km/h is " + velocity1);
+        System.out.println("Your velocity in miles/h is " + velocity2);
+    }
+}
+
+
+//task 14
+public class task14{
+  public static void main(String [] args){
+  int value1 = 8 / 2;
+  int value2 = 3;
+  
+  double area = ( (3 * Math.sqrt(3)) / 2 ) * value1 * value1;
+  
+  double side = Math.sqrt(value1 * value1 + value2 * value2);
+  
+  double circum = 6 * side; 
+  
+  System.out.println("The area of hexagon is: " + area);
+  
+  System.out.println("The circumference of hexagon is: " + circum);
+  
+  }
+}
+
