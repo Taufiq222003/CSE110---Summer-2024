@@ -1,16 +1,3 @@
-//task 1
-a) hungry - correct
-b) 2AB - incorrect(cannot start with a number)	
-c) 312.2 - incorrect(cannot start with a number) 	
-d) MOBILE - correct	 
-e) “Ans” -incorrect(cannot start with "")	
-f) $30 - correct
-g) Yes/No - correct
-h) student-id - incorrect(no use of camel case or snake case e.g. student_id, studentId   
-i) A+3 - incorrect
-j) ‘X’- incorrect(cannot start with '')
-k) return - incorrect(java default keyword)
-
 
 //task 2
 public class task2{
